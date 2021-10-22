@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "node -r esm index.js",
+    "build": "babel src -x '.ts,.tsx' -d views"
 
-    "babel": "babel src -x '.rs,.tsx' -d views",
-    "build": "webpack --mode development"
+
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
